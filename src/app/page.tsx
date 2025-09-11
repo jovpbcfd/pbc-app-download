@@ -13,7 +13,7 @@ export default function Home() {
 					className="hidden md:block"
 				/>
 				<Image
-					src="/img/upper.png"
+					src="/img/upper_v2.png"
 					alt="upper"
 					width={500}
 					height={300}
@@ -22,10 +22,10 @@ export default function Home() {
 			</div>
 
 			{/* frame */}
-			<div className="flex items-center justify-center -mt-5">
+			<div className="flex items-center justify-center -mt-8">
 				<iframe
 					src="https://api.g1388.makethatold.com/promobot/lobby?userType=guest&campaignName=DEMO%20KYC%200502&currency=demo_promobot_voucher_bdt"
-					width="80%"
+					width="100%"
 					height="600"
 					className="rounded-lg"
 					// allowFullScreen
