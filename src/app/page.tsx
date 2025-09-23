@@ -22,7 +22,15 @@ export default function Home() {
 			</div>
 
 			{/* frame */}
-			<div className="flex items-center justify-center  md:-mt-8">
+			<div className="flex items-center justify-center  md:-mt-8 relative">
+				<div className="absolute inset-0">
+					<Image
+						src="/img/sample-frame.jpg"
+						width={500}
+						height={500}
+						alt="sample frame"
+					/>
+				</div>
 				<iframe
 					src="https://api.g1388.makethatold.com/promobot/lobby?userType=guest&campaignName=DEMO%20KYC%200502&currency=demo_promobot_voucher_bdt"
 					width="100%"
