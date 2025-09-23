@@ -22,12 +22,12 @@ export default function Home() {
 			</div>
 
 			{/* frame */}
-			<div className="flex items-center justify-center  md:-mt-8 relative">
+			<div className="flex items-center justify-center  md:-mt-8 relative overflow-y-auto">
 				<div className="absolute inset-0">
 					<Image
 						src="/img/sample-frame.jpg"
 						width={500}
-						height={500}
+						height={800}
 						alt="sample frame"
 						className="md:h-[600px]"
 					/>
