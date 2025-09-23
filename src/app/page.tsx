@@ -29,6 +29,7 @@ export default function Home() {
 						width={500}
 						height={500}
 						alt="sample frame"
+						className="md:h-[600px]"
 					/>
 				</div>
 				<iframe
