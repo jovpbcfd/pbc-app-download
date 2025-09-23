@@ -16,17 +16,17 @@ export default function Home() {
 					src="/img/upper_v3.png"
 					alt="upper"
 					width={500}
-					height={150}
-					className="block h-[150px] md:hidden"
+					height={140}
+					className="block h-[140px] -mt-2 md:hidden"
 				/>
 			</div>
 
 			{/* frame */}
-			<div className="flex items-center justify-center md:-mt-8">
+			<div className="flex items-center justify-center  md:-mt-8">
 				<iframe
 					src="https://api.g1388.makethatold.com/promobot/lobby?userType=guest&campaignName=DEMO%20KYC%200502&currency=demo_promobot_voucher_bdt"
 					width="100%"
-					height="600"
+					height="500"
 					className="rounded-lg"
 					// allowFullScreen
 				/>
