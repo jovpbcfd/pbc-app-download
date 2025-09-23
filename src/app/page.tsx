@@ -27,7 +27,7 @@ export default function Home() {
 					src="https://api.g1388.makethatold.com/promobot/lobby?userType=guest&campaignName=DEMO%20KYC%200502&currency=demo_promobot_voucher_bdt"
 					width="100%"
 					height="500"
-					className="rounded-lg"
+					className="rounded-lg h-[500px] md:h-[600px]"
 					// allowFullScreen
 				/>
 			</div>
