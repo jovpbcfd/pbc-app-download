@@ -41,9 +41,9 @@ export default function Home() {
 				</div>
 			</div>
 
-			{/* frame */}
-			<div className="flex items-center justify-center  md:-mt-8 relative overflow-y-auto">
-				<div className="absolute inset-0">
+			{/* frame relative overflow-y-auto */}
+			<div className="flex items-center justify-center  md:-mt-8 relative z-10">
+				{/* <div className="absolute inset-0">
 					<Image
 						src="/img/sample-frame.jpg"
 						width={500}
@@ -51,7 +51,7 @@ export default function Home() {
 						alt="sample frame"
 						className="md:h-[600px]"
 					/>
-				</div>
+				</div> */}
 				<iframe
 					src="https://api.g1388.makethatold.com/promobot/lobby?userType=guest&campaignName=DEMO%20KYC%200502&currency=demo_promobot_voucher_bdt"
 					width="100%"
