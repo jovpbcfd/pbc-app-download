@@ -21,8 +21,8 @@ export default function Home() {
 				/>
 				<div className="absolute inset-0 bg-black/60"></div>
 				<div className="absolute md:bottom-20">
-					<h1 className="text-center leading-5 md:leading-6">
-						<span className="text-md font-bold text-white uppercase md:text-[#1a9e56] md:text-5xl md:font-extrabold md:drop-shadow-[2px_2px_0px_rgba(255,246,154,1)]">
+					<h1 className="text-center leading-5 mt-5 md:mt-0 md:leading-6">
+						<span className="text-md font-bold drop-shadow-md text-[#fff69a] uppercase md:text-[#1a9e56] md:text-5xl md:font-extrabold md:drop-shadow-[2px_2px_0px_rgba(255,246,154,1)]">
 							99 Free Spins
 						</span>
 						<br />
