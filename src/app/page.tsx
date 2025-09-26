@@ -26,15 +26,15 @@ export default function Home() {
 							99 Free Spins
 						</span>
 						<br />
-						<span className="text-sm drop-shadow-md font-bold text-white md:italic md:font-extrabold md:uppercase">
+						<span className="text-sm drop-shadow-md font-bold text-white italic md:font-extrabold md:uppercase">
 							Chance to win a huge jackpot!
 						</span>
 						<br />
-						<span className="text-sm drop-shadow-md font-bold text-white md:italic md:font-extrabold md:uppercase ">
+						<span className="text-sm drop-shadow-md font-bold text-white italic md:font-extrabold md:uppercase ">
 							Winnings will be instantly credited to your account.
 						</span>
 						<br />
-						<span className="text-sm drop-shadow-md font-bold text-white md:italic md:font-extrabold md:uppercase">
+						<span className="text-sm drop-shadow-md font-bold text-white italic md:font-extrabold md:uppercase">
 							Seize this opportunity and play now!
 						</span>
 					</h1>
@@ -82,7 +82,7 @@ export default function Home() {
 					className="hidden md:block"
 				/>
 				<Image
-					src="/img/lower_V2.png"
+					src="/img/lower_v2.png"
 					width={400}
 					height={200}
 					alt="Millionaire"
