@@ -64,20 +64,20 @@ export default function Home() {
 			</div>
 
 			<div className="flex items-center justify-center">
-				<Image
+				{/* <Image
 					src="/img/lower_website_v2.png"
 					width={400}
 					height={200}
 					alt="Millionaire"
 					className="hidden md:block"
-				/>
-				<Image
+				/> */}
+				{/* <Image
 					src="/img/lower_v2.png"
 					width={400}
 					height={200}
 					alt="Millionaire"
 					className="block md:hidden"
-				/>
+				/> */}
 			</div>
 		</div>
 	);
