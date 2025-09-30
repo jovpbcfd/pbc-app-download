@@ -17,10 +17,10 @@ export default function Home() {
 					alt="upper"
 					width={500}
 					height={300}
-					className="block h-[300px] md:hidden"
+					className="block h-auto md:hidden"
 				/>
 
-				<div className="absolute bottom-[-130px]  md:bottom-[-80px]">
+				<div className="absolute bottom-[-110px]  md:bottom-[-80px]">
 					<Image
 						src="/img/pbc-textstyle.webp"
 						width={300}
